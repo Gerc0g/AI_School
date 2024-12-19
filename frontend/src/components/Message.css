@@ -1,0 +1,25 @@
+.message {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .message.human {
+    justify-content: flex-end;
+  }
+  
+  .message.ai {
+    justify-content: flex-start;
+  }
+  
+  .message-content {
+    max-width: 60%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #e1ffc7;
+    color: #000;
+  }
+  
+  .message.human .message-content {
+    background-color: #c7dfff;
+  }
+  
